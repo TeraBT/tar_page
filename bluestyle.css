@@ -81,6 +81,28 @@ header {
     width: 100%;
   }
 
+  .leftcolumn {   
+    float: left;
+    width: 0%;
+    text-align: justify;
+    padding-left: 15px;
+  }
+  
+  
+  .middlecolumn {
+    float: left;
+    width: 100%;
+    background-color: #ffffff;
+  }
+  
+  
+  .rightcolumn {
+    float: left;
+    width: 0%;
+    background-color: #ffffff;
+    padding-left: 20px;
+  }
+
   footer {
     width: 100%;
   }
