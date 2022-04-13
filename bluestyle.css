@@ -29,31 +29,47 @@ header {
   border-bottom: 2px solid black;
 }
 
+
+
 .content {
   background-color: white;
   overflow: hidden;
-  float: left
-  /* padding: 15px; */
-  /* width: 33.33%; */
-  /* max-width: 800px; */
-  /* margin: auto; */
-  /* text-align: justify; */
+  padding: 15px;
+  width: auto; 
+  max-width: 800px;
+  margin: auto;
+  text-align: justify;
   
 }
 
-.leftwall {
+
+.leftcolumn {   
   float: left;
-  margin: auto;
-  width: 33.33%;
+  width: 20%;
+  text-align: justify;
+  padding-left: 15px;
 }
 
-.rightwall {
+
+.middlecolumn {
   float: left;
-  /* margin: auto; */
-  width: 33.33%;
+  width: 60%;
+  background-color: #ffffff;
 }
 
-.row:after {
+
+.rightcolumn {
+  float: left;
+  width: 20%;
+  background-color: #ffffff;
+  padding-left: 20px;
+}
+
+
+
+
+/* Clear floats after the columns */
+.maindivision:after {
   content: "";
   display: table;
   clear: both;
@@ -90,6 +106,7 @@ footer {
   text-align: center;
   font-size: 12px;
   color: grey;
+  float:bottom;
 }
 
 ul.index {
